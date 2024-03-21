@@ -33,7 +33,7 @@ const Hero = () => {
                         ref={ref}
                         initial={{ opacity: 0, color: '#666666' }}
                         animate={controls}
-                        transition={{ duration: 0.8 }} className='text-6xl sm:text-8xl'>HEY, I'M PRABHJOT</motion.h1>
+                        transition={{ duration: 0.8 }} className='text-6xl sm:text-8xl'>HEY, I&apos;M PRABHJOT</motion.h1>
 
                     <motion.p
                         ref={ref}
@@ -54,9 +54,7 @@ const Hero = () => {
 
             <div className='flex-[1] relative'>
                 <div className='sticky top-[180px]'>
-                    
-                        <Image src={img} width={1000} height={1000} alt='' className='h-full w-full' />
-                    
+                    <Image src={img} width={1000} height={1000} alt='' className='h-full w-full' />
                 </div>
             </div>
         </div>

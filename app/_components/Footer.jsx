@@ -8,7 +8,7 @@ const Footer = () => {
 
                 <div className='flex flex-col flex-[1.2rem] gap-10'>
                     <div className='flex flex-col gap-5 w-full'>
-                        <h2 id='hire' className='scroll-mt[132px] text-5xl sm:text-6xl font-normal'>LET'S TALK ABOUT THE NEXT BIG THING.</h2>
+                        <h2 id='hire' className='scroll-mt[132px] text-5xl sm:text-6xl font-normal'>LET&apos;S TALK ABOUT THE NEXT BIG THING.</h2>
 
                         <div className="relative flex bg-green-40 items-center group h-full hover:text-gray-100 transition-all duration-300 ease-in-out cursor-pointer">
                             <a href="mailto:prabhjot1671@gmail.com" className='text-3xl border-2 border-black font-medium w-full p-4 flex justify-center'>Hire me</a>

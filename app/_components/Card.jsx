@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 
 const Card = ({ title, desc, img, link }) => {
@@ -7,7 +8,7 @@ const Card = ({ title, desc, img, link }) => {
         <>
             <div className='flex gap-4 flex-col justify-evenly p-2 sm:pl-10 border-2 border-black text-[#222222] h-[400px] sm:h-[450px] w-[99%] sm:w-[550px] relative'>
                 <div class="relative bg-black h-full w-full overflow-hidden bg-cover bg-no-repeat">
-                    <img
+                    <Image width={1000} height={1000}
                         src={img}
                         className="object-cover filter grayscal h-full w-full transition duration-300 ease-in-out hover:scale-110"
                         alt="" />
