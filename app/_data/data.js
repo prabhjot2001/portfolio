@@ -153,7 +153,7 @@ export const cardData = [
     },
     {
         title: 'Task-minder',
-        description: 'created a task manager app with active status all employes searching adding deletion updatation',
+        description: 'Developed a task manager app with features for tracking employee status, as well as functionality for searching, adding, deleting, and updating tasks.',
         img: 'projectManagement1.png',
         preview: ['projectManagement2.png', 'projectManagement1.png',],
         link: 'https://github.com/prabhjot2001/'
