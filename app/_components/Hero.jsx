@@ -43,7 +43,8 @@ const Hero = () => {
                         className='scroll-mt-[132px] uppercase text-gray-500 mt-8 sm:mt-20 sm:leading-[3rem] text-2xl sm:text-3xl font-bold'
                         id='about'
                     >
-                        I am a student & a full-stack developer I have built many interesting projects you can explore more below. I enjoy building sites & apps. I work with latest technologies like MERN stack, Laravel etc.
+                        I&apos;m a recent graduate and a passionate full-stack developer with a strong focus on building innovative and impactful solutions. With expertise in the latest technologies like the
+                        Spring Boot, Node.js, DBMS, UNIX, and more.
                     </motion.p>
                 </div>
 

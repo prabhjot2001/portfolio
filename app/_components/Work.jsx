@@ -23,7 +23,7 @@ const Work = () => {
                 <div className="sticky top-[132px] flex h-[500px] items-center overflow-hidden">
                     <motion.div style={{ x }} className="flex gap-20">
                         {cardData.map((card, i) => {
-                            return <Card title={card.title} desc={card.description} img={card.img} link={card.link} key={i} />;
+                            return <Card title={card.title} preview={card.preview} desc={card.description} img={card.img} link={card.link} key={i} />;
                         })}
                     </motion.div>
                 </div>
@@ -34,7 +34,7 @@ const Work = () => {
                 <div className="flex justify-center">
                     <div className="flex flex-col gap-10 sm:gap-40 sm:grid grid-cols-2">
                         {cardData.map((card, i) => {
-                            return <Card title={card.title} desc={card.description} img={card.img} link={card.link} key={i} />;
+                            return <Card title={card.title} preview={card.preview} desc={card.description} img={card.img} link={card.link} key={i} />;
                         })}
                     </div>
                 </div>

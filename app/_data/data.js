@@ -41,9 +41,24 @@ export const logos = [
         name: 'JavaScript',
     },
     {
-        path: '/php-alt.svg',
+        path: '',
         width: width,
-        name: 'PHP'
+        name: 'SQL',
+    },
+    {
+        path: '',
+        width: width,
+        name: 'Spring Boot'
+    },
+    {
+        path: '',
+        width: width,
+        name: 'REST API'
+    },
+    {
+        path: '',
+        width: width,
+        name: 'Microservices'
     },
     {
         path: '/php-alt.svg',
@@ -59,11 +74,6 @@ export const logos = [
         path: '/express.svg',
         width: width,
         name: 'Express js'
-    },
-    {
-        path: '/laravel.svg',
-        width: width,
-        name: 'Laravel'
     },
     {
         path: '/postgresql.svg',
@@ -106,43 +116,41 @@ export const experience = [
 
 export const cardData = [
     {
+        title: 'Pictora.ai',
+        description: 'Pictora.ai is an offline, AI-powered image generator that lets you create unique images using your creativity. It is free and open source.',
+        preview: ['AIimg5.png', 'AIimg4.png', 'AIimg2.png', 'AIimg12.png', 'AIimg3.png', 'AIimg1.png', 'AIimg6.png', 'AIimg7.png', 'AIimg8.png', 'AIimg9.png', 'AIimg10.png', 'AIimg11.png', 'AIimg12.png',],
+        img: 'AIimg5.png',
+        link: 'https://github.com/prabhjot2001/'
+    },
+    {
+        title: 'AI Notes App',
+        description: 'AI-powered notes app with features like automatic note summarization and AI-generated notes.',
+        preview: ['notes8.png', 'notes6.png', 'notes1.png','notes2.png','notes3.png','notes4.png','notes5.png','notes7.png','notes9.png','notes10.png', ],
+        img: 'notes9.png',
+        link: 'https://github.com/prabhjot2001/'
+    },
+    {
         title: 'Blog-Rush',
-        description: 'lorem sdfajl; sdkjlf sdjkfkjf skjf9tijweiotkn jsdfcnsdofahsiof',
+        description: 'A full-featured blog application with advanced capabilities like commenting, liking, and writing posts.',
         img: 'blog (2).png',
+        preview: ['blog (1).png','blog (2).png',],
         link: 'https://github.com/prabhjot2001/'
     },
-    {
-        title: 'Blog-Rush',
-        description: 'lorem sdfajl; sdkjlf sdjkfkjf skjf9tijweiotkn jsdfcnsdofahsiof',
-        img: 'blog (1).png',
-        link: 'https://github.com/prabhjot2001/'
-    },
+
     {
         title: 'Epic',
-        description: 'lorem sdfajl; sdkjlf sdjkfkjf skjf9tijweiotkn jsdfcnsdofahsiof',
+        description: 'An eCommerce store with modern features including product listings, secure checkout, payment integration, and user accounts for a seamless shopping experience.',
         img: 'ecommerce.png',
-        link: 'https://github.com/prabhjot2001/'
-    },
-    {
-        title: 'Epic',
-        description: 'lorem sdfajl; sdkjlf sdjkfkjf skjf9tijweiotkn jsdfcnsdofahsiof',
-        img: 'ecommerce1.png',
+        preview: ['ecommerce1.png','ecommerce.png',],
         link: 'https://github.com/prabhjot2001/'
     },
     {
         title: 'Task-minder',
-        description: 'lorem sdfajl; sdkjlf sdjkfkjf skjf9tijweiotkn jsdfcnsdofahsiof',
+        description: 'created a task manager app with active status all employes searching adding deletion updatation',
         img: 'projectManagement1.png',
+        preview: ['projectManagement2.png','projectManagement1.png',],
         link: 'https://github.com/prabhjot2001/'
-    },
-    {
-        title: 'Task-minder',
-        description: 'lorem sdfajl; sdkjlf sdjkfkjf skjf9tijweiotkn jsdfcnsdofahsiof',
-        img: 'projectManagement2.png',
-        link: 'https://github.com/prabhjot2001/'
-    },
-
-
+    }
 ]
 
 
