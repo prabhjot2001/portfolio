@@ -68,6 +68,10 @@ const Card = ({ title, desc, preview, img, link }) => {
                     />
                 </div>
 
+                <div>
+                    <p className="text-sm">{desc}</p>
+                </div>
+
                 <div className="flex flex-col gap-4 items-center justify-center sm:flex sm:flex-row sm:justify-between">
                     <h2 className="uppercase font-semibold text-xl">{title}</h2>
                     <Link
