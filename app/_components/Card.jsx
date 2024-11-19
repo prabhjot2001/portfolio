@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Pointer } from "lucide-react"
 import ReactDOM from "react-dom";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -66,6 +67,12 @@ const Card = ({ title, desc, preview, img, link }) => {
                         alt=""
                         onClick={openModal}
                     />
+                </div>
+                <div className="flex items-center gap-2">
+                    <Pointer className='w-3' />
+                    <p className="text-xs text-gray-500 font-light">
+                        Tap the image to open and view the images.
+                    </p>
                 </div>
 
                 <div>
